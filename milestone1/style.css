@@ -1,12 +1,11 @@
 body{
     font-family: 'Times New Roman', Times, serif;
-    background-color: antiquewhite;
     margin: 0;
-    padding: 150px;
+    padding: 50px;
 }
 .resume-builder{
  display: flex;
- background-color: bisque;
+ background-color: white;
  width: 80%;
  margin: 0 auto;
  border-radius: 10px;
@@ -14,23 +13,24 @@ body{
 }
 .left-side{
     background-color: black;
-    color: aquamarine;
+    color: rgb(188, 196, 207);
     padding: 20px;
     width: 35%;
     text-align: center;
-    border-right: 7px solid aquamarine;
+    border-right: 3px solid rgb(142, 142, 181);
 }
 .profile-picture{
     width: 200px;
     height: 200px;
     margin-top: 10%;
-    border: 5px solid aquamarine;
+    border: 5px solid rgb(142, 142, 181);
     border-radius: 60%;
     margin-bottom: 20px;
 }
 .right-side{
     padding: 20px;
     width: 65%;
+
     
 }
 h1{
@@ -41,21 +41,22 @@ text-align: center;
 }
 h3{
     font-size: 18px;
-    padding: 2%;
+    padding: 2px;
     margin: 20px 0 10px;
     color:black;
     border-radius: 10px;
     box-shadow: 0 0 15px white;
     margin-top: 5%;
     margin-bottom: 5%;
-}
+    padding-right: 10px;
+    }
 ul{
     list-style-type: fill round;
-    padding: 10;
-    margin: 10px 0;
+    padding-left: 0%;
 }
  ul li{
     margin: 5px 0;
+    padding: 3px;
  }
  button{
     font-family: 'Times New Roman', Times, serif;
@@ -64,7 +65,10 @@ ul{
     cursor: pointer;
     margin-top: 10px;
     font-size: 18px;
+    padding: 6px;
+    margin-bottom: 10px;
+   
  }
  button:hover{
-    background-color: pink;
+    background-color: rgb(99, 143, 160);
  }
